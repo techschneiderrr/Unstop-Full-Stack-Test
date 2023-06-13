@@ -1,0 +1,65 @@
+.coach {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 5em;
+    /* border: 2px dashed rgb(112, 112, 112); */
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgb(201, 202, 201);
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 8px;
+  }
+  
+  .empty {
+    /* border: 1px solid rgba(7, 215, 230, 0.767); */
+    box-shadow: 1px 1px 1px 1px rgb(136, 0, 0);
+  }
+  
+  .booked {
+    background-color: rgb(59, 240, 68);
+    /* border: 1px solid rgb(5, 82, 15); */
+    box-shadow: 1px 1px 1px 1px rgb(95, 184, 109);
+  }
+  
+  .unavailable {
+    /* visibility: hidden; */
+    background-color: rgb(177, 177, 177);
+    /* border: 1px solid rgb(54, 54, 54); */
+  }
+  
+  .input-div input {
+    width: 75%;
+    height: 2.5em;
+    border-radius: 5px;
+    margin: 8px;
+    border: 2px solid rgb(74, 172, 238);
+  }
+
+  .input-div {
+    display: flex;
+  }
+  
+  .input-div button {
+    border-radius: 5px;
+    border: 2px solid rgb(71, 185, 238);
+    height: 3em;
+    margin: 8px;
+    color: aliceblue;
+    background-color: rgb(71, 185, 238);
+  }
+
+  .input-div button:hover {
+    cursor: pointer;
+    box-shadow: 3px solid rgb(71, 185, 238);
+    background-color: rgb(0,0,0);
+  }
+  
